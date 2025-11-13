@@ -1,4 +1,6 @@
 Question: What is the file permission which means that anyone can access a file?
 
 Put your answer to the question in the flag format!
-For example if your answer was 123 your flag would be flag{123}
+For example if your answer was 123 your flag would be flag{777}
+
+sudo chmod 777 .bashrc
