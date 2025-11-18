@@ -108,7 +108,7 @@ Everything for me, as for many others, revolves around family and faith.
 
 - My family is South Indian, with my mother being from Tamil Nadu and my father being from Karnataka.
 - My family is normal sized
-- The gallery has some goofy photos of me and my sister
+- The gallery has some goofy photos of me, my sister and friends
 <comment>
 Gallery of Pics, scroll to the right for more ...
 </comment>
