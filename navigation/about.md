@@ -60,7 +60,7 @@ Flags are made using Wikipedia images
     // 2. Define a JavaScript object for our http source and our data rows for the Living in the World grid
     var http_source = "https://upload.wikimedia.org/wikipedia/commons/";
     var living_in_the_world = [
-        {"flag": "0/01/Flag_of_California.svg", "greeting": "Hey", "description": "California - forever"},
+        {"flag": "0/01/Flag_of_California.svg", "greeting": "Hey", "description": "California - all my life!!!"},
 
     ];
 
@@ -110,7 +110,7 @@ Everything for me, as for many others, revolves around family and faith.
 - My family is normal sized
 - The gallery has some goofy photos of me, my sister and friends
 <comment>
-Gallery of Pics, scroll to the right for more ...
+Gallery of Pics...
 </comment>
 <div class="image-gallery">
   <img src="{{site.baseurl}}/images/about/mort1.jpg" alt="Image 1">
