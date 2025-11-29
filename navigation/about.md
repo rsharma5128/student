@@ -60,14 +60,9 @@ Flags are made using Wikipedia images
     // 2. Define a JavaScript object for our http source and our data rows for the Living in the World grid
     var http_source = "https://upload.wikimedia.org/wikipedia/commons/";
 
-    // The specific path for the Flag of India (2:1)
-    var flag_path = "c/ce/Flag_of_India_(2-1).svg";
-
     var living_in_the_world = [
         {"flag": "0/01/Flag_of_California.svg", "greeting": "Hey", "description": "California - all my life!!!"},
-
-    // New entry for Indian flag
-        {"flag": "c/ce/Flag_of_India_(2-1).svg", "greeting": "Namaste", "description": "India(in my parent's lives)"}    
+  
     ];
 
     // 3a. Consider how to update style count for size of container
