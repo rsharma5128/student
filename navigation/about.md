@@ -58,7 +58,7 @@ Flags are made using Wikipedia images
     var container = document.getElementById("grid_container"); // This container connects to the HTML div
 
     // 2. Define a JavaScript object for our http source and our data rows for the Living in the World grid
-    var http_source = "https://commons.wikimedia.org/wiki/File:Flag_of_India.svg/";
+    var http_source = "https://upload.wikimedia.org/wikipedia/commons/4/4a/Flag_of_India_(3-5).svg/";
     var living_in_the_world = [
         {"flag": "0/01/Flag_of_California.svg", "greeting": "Hey", "description": "California - all my life!!!"},
 
