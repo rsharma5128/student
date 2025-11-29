@@ -106,7 +106,9 @@ Flags are made using Wikipedia images
 Here is what I did at those places
 
 -Stone Ranch Elementary School(2016-2022)
+
 -Oak Valley Middle School(2022-2025)
+
 -Del Norte High School(Freshman year, 2025-Present)
 ### Culture, Family, and Fun
 
