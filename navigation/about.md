@@ -119,4 +119,5 @@ Gallery of Pics...
   <img src="{{site.baseurl}}/images/about/mort1.jpg" alt="Image 1">
   <img src="{{site.baseurl}}/images/about/mort2.jpg" alt="Image 2">
   <img src="{{site.baseurl}}/images/about/mort4.jpg" alt="Image 3">
+  <img src="{{site.baseurl}}/images/about/mort5.jpg" alt="Image 3">
 </div>
