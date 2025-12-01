@@ -86,10 +86,5 @@ flowchart LR
     %% Arrows: cloning
     A --> T
     T --> C
-
-
-    %% Arrows: commands
-    C --> Ccmd
-    D --> Dcmd
-
+    
 ```
