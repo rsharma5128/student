@@ -54,44 +54,44 @@ flowchart LR
 
 ```
 
-This diagram will show what we did over the past few weeks.
+    This diagram will show what we did over the past few weeks.
 
-```mermaid
-flowchart LR
-    %% GitHub Sources
-    subgraph GitHub_Pages[Account Creation]
-        A[Created Github Account, discussed PII, created Slack account and enrolled in CS Slack, and cloned Open-Coding Society repository]:::repo
-    end
-
-    subgraph GitHub_Template[GitHub: Open-Coding-Society/student]
-        T[Template Repo: student]:::repo
-    end
-
-    subgraph GitHub_Student[GitHub: rsharma5128/student]
-        B[Repo: student]:::repo
-    end
-
-    %% Local Computer
-    subgraph Local[Operating system setup]
-        subgraph opencs_dir[Installed and set up Windows Subsystem for Linux(WSL) on Windows, installed Linux on school-issued machines, installed and set up Homebrew on MacOS devices, and set up Kasm web server on Chromebooks.]
-            C[pages/]:::local
-            Ccmd[VSCode Prep<br/><br/>./scripts/venv.sh<br/>source venv/bin/activate<br/>code .]:::cmd
+    ```mermaid
+    flowchart LR
+        %% GitHub Sources
+        subgraph GitHub_Pages[Account Creation]
+            A[Created Github Account, discussed PII, created Slack account and enrolled in CS Slack, and cloned Open-Coding Society repository]:::repo
         end
-        subgraph user_dir[rsharma5128/ directory]
-            D[student/]:::local
-            Dcmd[VSCode Prep<br/><br/>./scripts/venv.sh<br/>source venv/bin/activate<br/>code .]:::cmd
+
+        subgraph GitHub_Template[GitHub: Open-Coding-Society/student]
+            T[Template Repo: student]:::repo
         end
-    end
 
-    %% Arrows: cloning
-    A --> C
-    B <--> D
+        subgraph GitHub_Student[GitHub: rsharma5128/student]
+            B[Repo: student]:::repo
+        end
 
-    %% Arrows: template relationship
-    T --> B
+        %% Local Computer
+        subgraph Local[Operating system setup]
+            subgraph opencs_dir[Installed and set up different ways of accessing Linux distributions, such as Kasm, WSL, and lent machines]
+                C[pages/]:::local
+                Ccmd[VSCode Prep<br/><br/>./scripts/venv.sh<br/>source venv/bin/activate<br/>code .]:::cmd
+            end
+            subgraph user_dir[rsharma5128/ directory]
+                D[student/]:::local
+                Dcmd[VSCode Prep<br/><br/>./scripts/venv.sh<br/>source venv/bin/activate<br/>code .]:::cmd
+            end
+        end
 
-    %% Arrows: commands
-    C --> Ccmd
-    D <--> Dcmd
+        %% Arrows: cloning
+        A --> C
+        B <--> D
 
-```
+        %% Arrows: template relationship
+        T --> B
+
+        %% Arrows: commands
+        C --> Ccmd
+        D <--> Dcmd
+
+    ```
