@@ -8,11 +8,11 @@ permalink: /tools/journey
 
 ## Visual Journey
 
-Linux is the most compatible OS for Developers.  
+The Linux kernel offers the best distributions for developers through it's open-source availability, allowing developers to modify critical system files to get programs to work and allowing anyone to be able to develop code.  
 
 ![Tux the Linux Mascot]({{site.baseurl}}/images/tux.png)
 
-This visual help remind me of Tools and their relationship to my Development Journey. 
+This visual will help remind me of Tools and their relationship to my Development Journey. 
 
 ```mermaid
 flowchart TD
