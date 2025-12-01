@@ -12,7 +12,7 @@ The Linux kernel offers the best distributions for developers through it's open-
 
 ![Tux the Linux Mascot]({{site.baseurl}}/images/about/tuz.png)
 
-This visual will help remind me of Tools and their relationship to my Development Journey. 
+'This visual will help remind me of Tools and their relationship to my Development Journey.' 
 
 ```mermaid
 flowchart LR
@@ -54,7 +54,7 @@ flowchart LR
 
 ```
 
-    This diagram will show what we did over the past few weeks.
+ This diagram will show what we did over the past few weeks.
 
 ```mermaid
 flowchart LR
