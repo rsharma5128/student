@@ -67,9 +67,6 @@ flowchart LR
         T[Learned how to make new files within repositories, add files to repositories, and how to use AI]:::repo
     end
 
-    subgraph GitHub_Student[GitHub: rsharma5128/student]
-        B[Repo: student]:::repo
-    end
 
     %% Operating system
     subgraph Local[Local Computer]
@@ -77,14 +74,11 @@ flowchart LR
             C[Installed ways to access Linux, like WSL]:::local
             Ccmd[VSCode Prep<br/><br/>Cloned repositories to main system using git clone and git pull]:::cmd
         end
-        subgraph user_dir[rsharma5128/ directory]
-            D[student/]:::local
-            Dcmd[VSCode Prep<br/><br/>./scripts/venv.sh<br/>source venv/bin/activate<br/>code .]:::cmd
-        end
+        
     end
 
     %% Arrows: cloning
     A --> T
     T --> C
-    
+
 ```
