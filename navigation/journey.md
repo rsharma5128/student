@@ -75,7 +75,7 @@ flowchart LR
     subgraph Local[Local Computer]
         subgraph opencs_dir[opencs/ directory]
             C[Installed ways to access Linux, like WSL, Kasm and Ubuntu]:::local
-            Ccmd[VSCode Prep<br/><br/>Cloned Github repository using git clone and git pull and installed VSCode]cmd
+            Ccmd[VSCode Prep<br/><br/>Clonede]cmd
         end
         subgraph user_dir[rsharma5128/ directory]
             D[student/]:::local
