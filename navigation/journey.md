@@ -42,7 +42,7 @@ flowchart TD
     end
 
     %% Arrows: cloning
-    A -.->|clone/pull only| C
+    A -.- >|clone/pull only| C
     B <--> |clone, pull & push| D
 
     %% Arrows: template relationship
