@@ -72,8 +72,8 @@ flowchart LR
     end
 
     %% Local Computer
-    subgraph Local[Local Computer]
-        subgraph opencs_dir[opencs/ directory]
+    subgraph Local[Operating system setup]
+        subgraph opencs_dir[Installed and set up Windows Subsystem for Linux(WSL) on Windows, installed Linux on school-issued machines, installed and set up Homebrew on MacOS devices, and set up Kasm web server on Chromebooks.]
             C[pages/]:::local
             Ccmd[VSCode Prep<br/><br/>./scripts/venv.sh<br/>source venv/bin/activate<br/>code .]:::cmd
         end
@@ -84,11 +84,11 @@ flowchart LR
     end
 
     %% Arrows: cloning
-    A -.->|clone/pull only| C
-    B <--> |clone, pull & push| D
+    A --> C
+    B <--> D
 
     %% Arrows: template relationship
-    T -.->|template→created| B
+    T -.-> B
 
     %% Arrows: commands
     C --> Ccmd
