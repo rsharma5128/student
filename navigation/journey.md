@@ -8,7 +8,7 @@ permalink: /tools/journey
 
 ## Visual Journey
 
-The Linux kernel offers the best distributions for developers through it's open-source availability, allowing developers to modify critical system files to get programs to work and allowing anyone to be able to develop code.  
+The Linux kernel offers the best distributions for developers through it's open-source availability, allowing developers to modify critical system files to get programs to work and allowing many developing-related packages to be installed via package managers that anyone can put software on.  
 
 ![Tux the Linux Mascot]({{site.baseurl}}/images/tux.png)
 
