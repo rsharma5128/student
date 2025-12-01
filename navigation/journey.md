@@ -15,7 +15,7 @@ The Linux kernel offers the best distributions for developers through it's open-
 This visual will help remind me of Tools and their relationship to my Development Journey. 
 
 ```mermaid
-flowchart TD
+flowchart LR
     %% GitHub Sources
     subgraph GitHub_Pages[GitHub: Open-Coding-Society/pages]
         A[Repo: pages]:::repo
@@ -25,7 +25,7 @@ flowchart TD
         T[Template Repo: student]:::repo
     end
 
-    subgraph GitHub_Student[GitHub: jm1021/student]
+    subgraph GitHub_Student[GitHub: rsharma5128/student]
         B[Repo: student]:::repo
     end
 
@@ -35,7 +35,7 @@ flowchart TD
             C[pages/]:::local
             Ccmd[VSCode Prep<br/><br/>./scripts/venv.sh<br/>source venv/bin/activate<br/>code .]:::cmd
         end
-        subgraph user_dir[jm1021/ directory]
+        subgraph user_dir[rsharma5128/ directory]
             D[student/]:::local
             Dcmd[VSCode Prep<br/><br/>./scripts/venv.sh<br/>source venv/bin/activate<br/>code .]:::cmd
         end
