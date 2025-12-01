@@ -78,7 +78,7 @@ flowchart LR
     end
 
     %% Arrows: cloning
-    A --> T
-    T --> C
+    A --> C
+    C --> T
 
 ```
