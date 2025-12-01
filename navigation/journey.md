@@ -41,15 +41,6 @@ flowchart TD
         end
     end
 
-    %% Arrows: cloning
-    A -.->|clone/pull only| C
-    B <--> |clone, pull & push| D
-
-    %% Arrows: template relationship
-    T -.->|template→created| B
-
-    %% Arrows: commands
-    C --> Ccmd
-    D <--> Dcmd
+ 
 
 ```
