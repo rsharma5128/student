@@ -76,13 +76,6 @@ flowchart LR
 
     %% Arrows: cloning
     A --> C
-    B --> D
-
-    %% Arrows: template relationship
-    T --> B
-
-    %% Arrows: commands
-    C --> Ccmd
-    D --> Dcmd
+    T --> C
 
 ```
