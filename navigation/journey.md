@@ -10,7 +10,7 @@ permalink: /tools/journey
 
 The Linux kernel offers the best distributions for developers through it's open-source availability, allowing developers to modify critical system files to get programs to work and allowing many developing-related packages to be installed via package managers that anyone can put software on.  
 
-![Tux the Linux Mascot]({{site.baseurl}}/images/about/tuzz.png)
+![Tux the Linux Mascot]({{site.baseurl}}/images/about/tuz.png)
 
 This visual will help remind me of Tools and their relationship to my Development Journey. 
 
