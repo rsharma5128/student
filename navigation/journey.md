@@ -85,7 +85,7 @@ flowchart LR
 
     %% Arrows: cloning
     A --> T
-    B --> D
+    T --> C
 
     %% Arrows: template relationship
     T --> B
