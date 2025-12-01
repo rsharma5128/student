@@ -73,7 +73,7 @@ flowchart LR
 
         %% Local Computer
         subgraph Local[Operating system setup]
-            subgraph opencs_dir[Installed and set up different ways of accessing Linux distributions, such as Kasm, WSL, and lent machines]
+            subgraph opencs_dir[Installed and set up different ways of accessing Linux distributions(KASM, WSL and machine)]
                 C[pages/]:::local
                 Ccmd[VSCode Prep<br/><br/>./scripts/venv.sh<br/>source venv/bin/activate<br/>code .]:::cmd
             end
