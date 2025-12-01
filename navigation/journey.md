@@ -59,8 +59,8 @@ flowchart LR
 ```mermaid
 flowchart LR
     %% GitHub Sources
-    subgraph GitHub_Pages[Account Creation]
-        A[Created Github, Slack and Open Coding Society accounts, and discussed PII]:::repo
+    subgraph GitHub_Pages[First day]
+        A[Created Github, Slack and Open Coding Society accounts, discussed PII, and values(4 Cs, class structure etc)]:::repo
     end
 
     subgraph GitHub_Template[Website editing]
