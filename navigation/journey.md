@@ -63,8 +63,8 @@ flowchart LR
         A[Created Github, Slack and Open Coding Society accounts, and discussed PII]:::repo
     end
 
-    subgraph GitHub_Template[GitHub: Open-Coding-Society/student]
-        T[Template Repo: student]:::repo
+    subgraph GitHub_Template[Website editing]
+        T[Learned how to make new files within repositories, add files to repositories, and how to use AI]:::repo
     end
 
     subgraph GitHub_Student[GitHub: rsharma5128/student]
