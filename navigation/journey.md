@@ -73,7 +73,7 @@ flowchart LR
 
     %% Operating system
     subgraph Local[Local Computer]
-        subgraph opencs_dir[opencs/ directory]
+        subgraph opencs_dir[Operating system]
             C[Installed ways to access Linux, like WSL]:::local
             Ccmd[VSCode Prep<br/><br/>Cloned repositories to main system using git clone and git pull]:::cmd
         end
