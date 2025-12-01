@@ -60,7 +60,7 @@ flowchart LR
 flowchart LR
     %% GitHub Sources
     subgraph GitHub_Pages[Account Creation]
-        A[Repo: pages]:::repo
+        A[Created Github, Slack and Open Coding Society accounts, and discussed PII]:::repo
     end
 
     subgraph GitHub_Template[GitHub: Open-Coding-Society/student]
