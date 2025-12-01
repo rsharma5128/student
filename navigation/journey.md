@@ -92,6 +92,6 @@ flowchart LR
 
     %% Arrows: commands
     C --> Ccmd
-    D <--> Dcmd
+    D --> Dcmd
 
 ```
