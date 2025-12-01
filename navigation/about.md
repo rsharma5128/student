@@ -5,7 +5,7 @@ permalink: /about/
 comments: true
 ---
 
-## As a conversation Starter
+## Where I have been
 
 Here are some places I have lived.
 
@@ -65,6 +65,11 @@ Flags are made using Wikipedia images
   
     ];
 
+    </comment>
+<div class="flags">
+  <img src="{{site.baseurl}}/images/about/india.webp" alt="Image 2">
+</div>
+
     // 3a. Consider how to update style count for size of container
     // The grid-template-columns has been defined as dynamic with auto-fill and minmax
 
@@ -98,7 +103,7 @@ Flags are made using Wikipedia images
 
 ### Journey through Life
 
-Here is what I did at those places
+Here is where I have ended up throughout life
 
 -Stone Ranch Elementary School(2016-2022)
 

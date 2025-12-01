@@ -21,7 +21,7 @@ flowchart LR
         A[Repo: pages]:::repo
     end
 
-    subgraph GitHub_Template[GitHub: Open-Coding-Society/student]
+    subgraph GitHub_Template[GitHub:]
         T[Template Repo: student]:::repo
     end
 
