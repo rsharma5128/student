@@ -54,7 +54,7 @@ flowchart LR
 
 ```
 
- This diagram will show what we did over the past few weeks.
+`This diagram will show what we did over the past few weeks.`
 
 ```mermaid
 flowchart LR
