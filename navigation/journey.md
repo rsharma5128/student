@@ -79,7 +79,7 @@ flowchart LR
         end
         subgraph user_dir[rsharma5128/ directory]
             D[student/]:::local
-            Dcmd[VSCode Prep<br/><br/>./scripts/venv.sh<br/>source venv/bin/activate<br/>code .]:::cmd
+            Dcmd[VSCode Prep<br/><br/>]:::cmd
         end
     end
 
