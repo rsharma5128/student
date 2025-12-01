@@ -102,11 +102,16 @@ Here is what I have done throughout life
 
 **School**
 
--Stone Ranch Elementary School(2016-2022)
+- 🏫 Stone Ranch Elementary School(2016-2022)
 
--Oak Valley Middle School(2022-2025)
+- 🏫 Oak Valley Middle School(2022-2025)
 
--Del Norte High School(Freshman year, 2025-Present)
+- 🏫 Del Norte High School(Freshman year, 2025-Present)
+
+*a*
+**a**
+# A
+## A
 
 **Extracurricular**
 
