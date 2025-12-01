@@ -85,10 +85,10 @@ flowchart LR
 
     %% Arrows: cloning
     A --> C
-    B <--> |clone, pull & push| D
+    B --> D
 
     %% Arrows: template relationship
-    T -.->|template→created| B
+    T --> B
 
     %% Arrows: commands
     C --> Ccmd
