@@ -59,8 +59,8 @@ This diagram will show what we did over the past few weeks.
 ```mermaid
 flowchart LR
     %% GitHub Sources
-    subgraph GitHub_Pages[GitHub: Open-Coding-Society/pages]
-        A[Repo: pages]:::repo
+    subgraph GitHub_Pages[Account Creation]
+        A[Created Github Account, discussed PII, created Slack account and enrolled in CS Slack, and cloned Open-Coding Society repository]:::repo
     end
 
     subgraph GitHub_Template[GitHub: Open-Coding-Society/student]
