@@ -60,22 +60,38 @@ flowchart LR
 flowchart LR
     %% GitHub Sources
     subgraph GitHub_Pages[First day]
-        A[Created Github, Slack and Open Coding Society accounts, discussed PII, and values]:::repo
+        A[Created Github, Slack and Open Coding Society accounts, discussed PII, and values like 4 Cs]:::repo
     end
 
     subgraph GitHub_Template[Website editing]
         T[Learned how to make new files within repositories, add files to repositories, and how to use AI]:::repo
     end
-    
+
+    subgraph GitHub_Student[GitHub: rsharma5128/student]
+        B[Repo: student]:::repo
+    end
+
     %% Operating system
     subgraph Local[Local Computer]
         subgraph opencs_dir[Operating system]
             C[Installed ways to access Linux, like WSL]:::local
             Ccmd[VSCode Prep<br/><br/>Cloned repositories to main system using git clone and git pull]:::cmd
         end
+        subgraph user_dir[rsharma5128/ directory]
+            D[student/]:::local
+            Dcmd[VSCode Prep<br/><br/>./scripts/venv.sh<br/>source venv/bin/activate<br/>code .]:::cmd
+        end
+    end
 
     %% Arrows: cloning
     A --> C
-    T --> C
+    B --> D
+
+    %% Arrows: template relationship
+    T --> B
+
+    %% Arrows: commands
+    C --> Ccmd
+    D --> Dcmd
 
 ```
