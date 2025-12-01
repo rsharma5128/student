@@ -98,13 +98,29 @@ Flags are made using Wikipedia images
 
 ### Journey through Life
 
-Here is where I have ended up throughout life
+Here is what I have done throughout life
+
+**School**
 
 -Stone Ranch Elementary School(2016-2022)
 
 -Oak Valley Middle School(2022-2025)
 
 -Del Norte High School(Freshman year, 2025-Present)
+
+**Extracurricular**
+
+-1 year of CyberPatriot
+
+-Traditional Indian vocal music
+
+-Previously played tennis
+
+-Started Cross Country this year
+
+-Currently in Lacrosse pre-season
+
+
 ### Culture, Family, and Fun
 
 Everything for me, as for many others, revolves around family and faith.
