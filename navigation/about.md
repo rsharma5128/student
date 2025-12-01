@@ -108,31 +108,29 @@ Here is what I have done throughout life
 
 - 🏫 Del Norte High School(Freshman year, 2025-Present)
 
-*a*
-**a**
-# A
-## A
-
 **Extracurricular**
 
--1 year of CyberPatriot
+-1 year of CyberPatriot 🛡️
 
--Traditional Indian vocal music
+-Traditional Indian vocal music 🎵
 
--Previously played tennis
+-Previously played tennis 🎾
 
--Started Cross Country this year
+-Started Cross Country this year 🏃
 
--Currently in Lacrosse pre-season
+-Currently in Lacrosse pre-season 🥍
 
 
 ### Culture, Family, and Fun
 
 Everything for me, as for many others, revolves around family and faith.
 
-- My family is South Indian, with my mother being from Tamil Nadu and my father being from Karnataka.
+- My family is South Indian, with my mother being from Tamil Nadu and my father being from Karnataka
+
 - My family is normal sized
+
 - The gallery has some goofy photos of me, my sister and friends
+
 <comment>
 Gallery of Pics...
 </comment>
