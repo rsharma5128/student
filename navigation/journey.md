@@ -56,42 +56,43 @@ flowchart LR
 
     This diagram will show what we did over the past few weeks.
 
-    ```mermaid
-    flowchart LR
-        %% GitHub Sources
-        subgraph GitHub_Pages[Account Creation]
-            A[Created Github Account, discussed PII, created Slack account and enrolled in CS Slack, and cloned Open-Coding Society repository]:::repo
+flowchart LR
+    %% GitHub Sources
+    subgraph GitHub_Pages[Account Setup]
+        A[Created Github Account, discussed PII, created Slack account, enrolled in CS Slack, and cloned Open-Coding Society repository]:::repo
+    end
+
+    subgraph GitHub_Template[Template Repo]
+        T[GitHub: Open-Coding-Society/student]:::repo
+    end
+
+    subgraph GitHub_Student[Student Repo]
+        B[GitHub: rsharma5128/student]:::repo
+    end
+
+    %% Local Computer
+    subgraph Local[Operating System Setup & Local Environment]
+        
+        %% This node holds the detailed description that was causing the error
+        SetupDetails[**OS Setup:** Installed/Set up different ways of accessing Linux distributions.]:::local
+
+        subgraph opencs_dir[opencs/ pages directory]
+            C[pages/ local clone]:::local
+            Ccmd[VSCode Prep<br/><br/>./scripts/venv.sh<br/>source venv/bin/activate<br/>code .]:::cmd
         end
-
-        subgraph GitHub_Template[GitHub: Open-Coding-Society/student]
-            T[Template Repo: student]:::repo
+        subgraph user_dir[rsharma5128/ student directory]
+            D[student/ local clone]:::local
+            Dcmd[VSCode Prep<br/><br/>./scripts/venv.sh<br/>source venv/bin/activate<br/>code .]:::cmd
         end
+    end
 
-        subgraph GitHub_Student[GitHub: rsharma5128/student]
-            B[Repo: student]:::repo
-        end
+    %% Arrows: structure and flow
+    
+    A --> SetupDetails
+    SetupDetails --> C
+    
+    T --> B
+    B <--> D
 
-        %% Local Computer
-        subgraph Local[Operating system setup]
-            subgraph opencs_dir[Installed and set up different ways of accessing Linux distributions(KASM, WSL and machine)]
-                C[pages/]:::local
-                Ccmd[VSCode Prep<br/><br/>./scripts/venv.sh<br/>source venv/bin/activate<br/>code .]:::cmd
-            end
-            subgraph user_dir[rsharma5128/ directory]
-                D[student/]:::local
-                Dcmd[VSCode Prep<br/><br/>./scripts/venv.sh<br/>source venv/bin/activate<br/>code .]:::cmd
-            end
-        end
-
-        %% Arrows: cloning
-        A --> C
-        B <--> D
-
-        %% Arrows: template relationship
-        T --> B
-
-        %% Arrows: commands
-        C --> Ccmd
-        D <--> Dcmd
-
-    ```
+    C --> Ccmd
+    D --> Dcmd
