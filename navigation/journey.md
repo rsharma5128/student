@@ -88,7 +88,7 @@ flowchart LR
     B <--> D
 
     %% Arrows: template relationship
-    T -.-> B
+    T --> B
 
     %% Arrows: commands
     C --> Ccmd
