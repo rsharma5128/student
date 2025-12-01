@@ -33,7 +33,7 @@ flowchart LR
     subgraph Local[Local Computer]
         subgraph opencs_dir[opencs/ directory]
             C[pages/]:::local
-            Ccmd[VSCode Prep<br/><br/>./scripts/venv.sh - starts a virtual environment seperate from the main operating system so any changes made will not affect the main operating system<br/>source venv/bin/activate<br/>code .]:::cmd
+            Ccmd[VSCode Prep<br/><br/>./scripts/venv.sh<br/>source venv/bin/activate<br/>code .]:::cmd
         end
         subgraph user_dir[rsharma5128/ directory]
             D[student/]:::local
