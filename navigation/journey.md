@@ -74,12 +74,12 @@ flowchart LR
     %% Operating system
     subgraph Local[Local Computer]
         subgraph opencs_dir[opencs/ directory]
-            C[Installed ways to access Linux, like WSL, Kasm and Ubuntu]:::local
-            Ccmd[VSCode Prep<br/><br/>Clonede]cmd
+            C[Installed ways to access Linux, like WSL]:::local
+            Ccmd[VSCode Prep<br/><br/>./scripts/venv.sh<br/>source venv/bin/activate<br/>code .]:::cmd
         end
         subgraph user_dir[rsharma5128/ directory]
             D[student/]:::local
-            Dcmd[VSCode Prep<br/><br/>]:::cmd
+            Dcmd[VSCode Prep<br/><br/>./scripts/venv.sh<br/>source venv/bin/activate<br/>code .]:::cmd
         end
     end
 
