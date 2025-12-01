@@ -53,10 +53,17 @@ Flags are made using Wikipedia images
     <!-- content will be added here by JavaScript -->
 </div>
 
-    </comment>
-<div class="flags">
-  <img src="{{site.baseurl}}/images/about/india.webp" alt="Image 2">
-</div>
+<script>
+    // 1. Make a connection to the HTML container defined in the HTML div
+    var container = document.getElementById("grid_container"); // This container connects to the HTML div
+
+    // 2. Define a JavaScript object for our http source and our data rows for the Living in the World grid
+    var http_source = "https://upload.wikimedia.org/wikipedia/commons/";
+
+    var living_in_the_world = [
+        {"flag": "0/01/Flag_of_California.svg", "greeting": "Hey", "description": "California - all my life!!!"},
+  
+    ];
 
     // 3a. Consider how to update style count for size of container
     // The grid-template-columns has been defined as dynamic with auto-fill and minmax
