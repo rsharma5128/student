@@ -102,6 +102,8 @@ Here is what I have done throughout life
 
 **School**
 
+- 🏫 Deer Canyon Elementary School(2015-2016)
+
 - 🏫 Stone Ranch Elementary School(2016-2022)
 
 - 🏫 Oak Valley Middle School(2022-2025)
@@ -127,8 +129,7 @@ Everything for me, as for many others, revolves around family and faith.
 
 - My family is South Indian, with my mother being from Tamil Nadu and my father being from Karnataka
 
-- My family is normal sized
-
+- My family is more on my dad's side, with there being a good bit of people centralized in India
 - The gallery has some goofy photos of me, my sister and friends
 
 <comment>
