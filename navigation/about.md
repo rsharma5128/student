@@ -11,8 +11,8 @@ comments: true
 Flags of where I'm from!
 </comment>
 <div class="image-gallery">
-  <img src="{{site.baseurl}}/images/india.webp" alt="Image 1">
-  <img src="{{site.baseurl}}/images/cali.webp" alt="Image 2">
+  <img src="{{site.baseurl}}/images/india.webp" alt="Image 1"> style="width: 1280px; height: 720px;">
+  <img src="{{site.baseurl}}/images/cali.webp" alt="Image 2"> style="width: 1280px; height: 720px;">
 </div>
 
 
