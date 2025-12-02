@@ -58,27 +58,6 @@ flowchart TD
 
 ```mermaid
 flowchart TD
-    %% GitHub Sources
-    subgraph GitHub_Pages[First day]
-        A[Created Github, Slack and Open Coding Society accounts, discussed PII, and values like 4 Cs]:::repo
-    end
-
-    subgraph GitHub_Template[Website editing]
-        T[Learned how to make new files within repositories, add files to repositories, and how to use AI]:::repo
-    end
-
-
-    %% Operating system
-    subgraph Local[Local Computer]
-        subgraph opencs_dir[Operating system]
-            C[Installed ways to access Linux, like WSL]:::local
-            Ccmd[VSCode Prep<br/><br/>Cloned repositories to main system using git clone and git pull]:::cmd
-        end
-        
-    end
-
-    %% Arrows: cloning
-    A --> C
-    C --> T
-
-```
+    A[Github] --> B{Push Code?}
+    B -- Yes --> C[Run CI/CD]
+    B -- No --> A
