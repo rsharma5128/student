@@ -98,7 +98,7 @@ Flags are made using Wikipedia images
 
 ### Journey through Life
 
-Here is what I have done throughout life
+Here is where life has taken me!
 
 **School**
 
@@ -112,25 +112,27 @@ Here is what I have done throughout life
 
 **Extracurricular**
 
--1 year of CyberPatriot 🛡️
+🛡️ 1 year of CyberPatriot
 
--Traditional Indian vocal music 🎵
+🎵 Traditional Indian vocal music since I was 5 years old
 
--Previously played tennis 🎾
+🎾 Used to play tennis
 
--Started Cross Country this year 🏃
+🏃 Started Cross Country this year
 
--Currently in Lacrosse pre-season 🥍
+🥍 Currently in Lacrosse pre-season
 
 
-### Culture, Family, and Fun
+### Background
 
-Everything for me, as for many others, revolves around family and faith.
+My family is my main inspiration, and they are the reason I am still here today and in this CS class!
 
-- My family is South Indian, with my mother being from Tamil Nadu and my father being from Karnataka
+👩🏻 1 older sister in college
 
-- My family is more on my dad's side, with there being a good bit of people centralized in India
-- The gallery has some goofy photos of me, my sister and friends
+🇮🇳 Both parents from India, more specifically southern region, with my dad being from Karnataka and my mom being from Tamil Nadu
+
+👨‍👩‍👦 My cousins are more on my dad's side, and a lot of them live in India, but 2 of them live in the US and one of them lives in the UK
+
 
 <comment>
 Gallery of Pics...
