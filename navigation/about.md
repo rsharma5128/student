@@ -8,38 +8,6 @@ comments: true
 ## Where I have been
 
 
-
-    // 3a. Consider how to update style count for size of container
-    // The grid-template-columns has been defined as dynamic with auto-fill and minmax
-
-    // 3b. Build grid items inside of our container for each row of data
-    for (const location of living_in_the_world) {
-        // Create a "div" with "class grid-item" for each row
-        var gridItem = document.createElement("div");
-        gridItem.className = "grid-item";  // This class name connects the gridItem to the CSS style elements
-        // Add "img" HTML tag for the flag
-        var img = document.createElement("img");
-        img.src = http_source + location.flag; // concatenate the source and flag
-        img.alt = location.flag + " Flag"; // add alt text for accessibility
-
-        // Add "p" HTML tag for the description
-        var description = document.createElement("p");
-        description.textContent = location.description; // extract the description
-
-        // Add "p" HTML tag for the greeting
-        var greeting = document.createElement("p");
-        greeting.textContent = location.greeting;  // extract the greeting
-
-        // Append img and p HTML tags to the grid item DIV
-        gridItem.appendChild(img);
-        gridItem.appendChild(description);
-        gridItem.appendChild(greeting);
-
-        // Append the grid item DIV to the container DIV
-        container.appendChild(gridItem);
-    }
-</script>
-
 ### Journey through Life
 
 Here is where life has taken me!
