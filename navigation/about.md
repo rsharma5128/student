@@ -8,13 +8,11 @@ comments: true
 ## Where I have been
 
 <comment>
-Gallery of Pics...
+Flags of where I'm from!
 </comment>
 <div class="image-gallery">
-  <img src="{{site.baseurl}}/images/about/mort1.jpg" alt="Image 1">
-  <img src="{{site.baseurl}}/images/about/mort2.jpg" alt="Image 2">
-  <img src="{{site.baseurl}}/images/about/mort4.jpg" alt="Image 3">
-  <img src="{{site.baseurl}}/images/about/mort5.jpg" alt="Image 3">
+  <img src="{{site.baseurl}}/images/india.webp" alt="Image 1">
+  <img src="{{site.baseurl}}/images/cali.webp" alt="Image 2">
 </div>
 
 
