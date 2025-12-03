@@ -58,6 +58,6 @@ flowchart TD
 
 ```mermaid
 flowchart TD
-    A[Github] --> B{Push Code?}
+    A[Github] --> B[Push Code?]
     B -- Yes --> C[Run CI/CD]
     B -- No --> A
