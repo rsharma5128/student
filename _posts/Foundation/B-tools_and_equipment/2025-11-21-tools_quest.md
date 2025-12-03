@@ -56,3 +56,5 @@ flowchart TD
 
 `This diagram will show what we did over the past few weeks.`
 
+flowchart TD
+    A["User"] --> B["Hello"]
