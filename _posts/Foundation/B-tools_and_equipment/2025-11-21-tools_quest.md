@@ -59,7 +59,7 @@ flowchart LR
 ```mermaid
 flowchart TD
     subgraph Day_1[Day 1: Account Creation and Morals]
-        A[Created Github and Slack account<br/>Joined Open Coding Society Sl]:::dayuno
+        A[Created Github and Slack account<br/>Joined Open Coding Society Slack<br/>Discussed PII<br/>Cloned OpenCS repo]:::dayuno
 end
     subgraph Day_2[Day 2:We did something too]
         B[Superduperskubs]:::daydos
