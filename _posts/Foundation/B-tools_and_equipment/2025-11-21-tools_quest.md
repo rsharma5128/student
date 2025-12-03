@@ -51,7 +51,7 @@ flowchart TD
     %% Arrows: commands
     C --> Ccmd
     D <--> Dcmd
-
+    end
 ```
 
 `This diagram will show what we did over the past few weeks.`
