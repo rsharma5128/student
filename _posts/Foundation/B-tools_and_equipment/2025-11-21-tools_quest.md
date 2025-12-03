@@ -61,10 +61,11 @@ flowchart TD
     subgraph Day_1[Day 1-7 Computer Setup]
         A[Days 1-3<br/><br/>Created Github and Slack account<br/>Joined Open Coding Society Slack<br/>Discussed PII<br/>Cloned OpenCS repo<br/>Set up Github Pages<br/>Used vscode.dev web client to edit repo files<br/>Taught how to do basic things like modify text and what files correspond to webpage]:::dayuno
         B[Days 4-7<br/><br/>Installed different ways of accessing Linux<br/>WSL, Homebrew, Kasm, <br/>Pulled Github repo to Linux<br/>Edited repo in VSCode app<br/>Figured out how to access localhost using VSCode app and make command]:::daydos
+end
     subgraph Day_2[Day 8-9]
         C[Website File editing<br/><br/>Taught how to create files in repositories<br/>Reflected on journey through days 1-7]
 end
 A --> B
 B --> C
 ```
-`**NOTE:** For days 1-3, the top-down lines are listed in chronological order(top is the earliest, bottom is the latest)
+**NOTE:** For days 1-3, the top-down lines are listed in chronological order(top is the earliest, bottom is the latest)
