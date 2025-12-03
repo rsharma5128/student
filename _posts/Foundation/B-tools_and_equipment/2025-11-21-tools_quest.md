@@ -62,6 +62,6 @@ flowchart TD
         A[Super_Skubs]:::dayuno 
 end
     subgraph Day_2[Day 2:We did something]
-        A[Superduperskubs]:::daydos
+        B[Superduperskubs]:::daydos
 end
 ```
