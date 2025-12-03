@@ -58,8 +58,8 @@ flowchart TD
 
 ```mermaid
 flowchart TD
-    subgraph Day_1[Day 1: We did something]
-        A[Super_Skubs]:::dayuno 
+    subgraph Day_1[Day 1: Account Creation and Morals]
+        A[Created a Github account, cloned Open Coding Society repository, opened repository in `vscode.dev` and used Github Pages to make a website of repository]:::dayuno 
 end
     subgraph Day_2[Day 2:We did something too]
         B[Superduperskubs]:::daydos
