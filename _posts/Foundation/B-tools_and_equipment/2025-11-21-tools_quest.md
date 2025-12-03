@@ -64,5 +64,4 @@ end
     subgraph Day_2[Day 4-7 OS setup]
         B[Installed different ways  <br/>WSL, Homebrew, Kasm, <br/>Pulled Github repo to Linux]:::daydos
 end
-    subgraph 
 ```
