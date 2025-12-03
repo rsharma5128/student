@@ -61,7 +61,7 @@ Flags are made using Wikipedia images
     var http_source = "https://upload.wikimedia.org/wikipedia/commons/";
 
     var living_in_the_world = [
-        {"flag": "0/01/Flag_of_California.svg", "greeting": "Hey", "description": "California - all my life!!!"},
+        {"flag": "0/01/Flag_of_California.svg", "greeting": "Hello!", "description": "California - all my life!!!"},
   
     ];
 
