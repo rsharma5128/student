@@ -56,8 +56,30 @@ flowchart TD
 
 `This diagram will show what we did over the past few weeks.`
 
+
 ```mermaid
 flowchart TD
-    A[Github] --> B[Push Code?]
-    B -- Yes --> C[Run CI/CD]
-    B -- No --> A
+    %% GitHub Sources
+    subgraph GitHub_Pages[GitHub: Open-Coding-Society/pages]
+        A[Repo: pages]:::repo
+    end
+
+    subgraph GitHub_Template[GitHub:]
+        T[Template Repo: student]:::repo
+    end
+
+    subgraph GitHub_Student[GitHub: rsharma5128/student]
+        B[Repo: student]:::repo
+    end
+
+    %% Local Computer
+    subgraph Local[Local Computer]
+        subgraph opencs_dir[opencs/ directory]
+            C[pages/]:::local
+            Ccmd[VSCode Prep<br/><br/>./scripts/venv.sh<br/>source venv/bin/activate<br/>code .]:::cmd
+        end
+        subgraph user_dir[rsharma5128/ directory]
+            D[student/]:::local
+            Dcmd[VSCode Prep<br/><br/>./scripts/venv.sh<br/>source venv/bin/activate<br/>code .]:::cmd
+        end
+    end
