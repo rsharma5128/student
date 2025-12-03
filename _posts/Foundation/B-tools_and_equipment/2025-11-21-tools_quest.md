@@ -60,8 +60,8 @@ flowchart LR
 flowchart TD
     subgraph Day_1[Day 1-3 Account Creation and Morals]
         A[Created Github and Slack account<br/>Joined Open Coding Society Slack<br/>Discussed PII<br/>Cloned OpenCS repo<br/>Set up Github Pages]:::dayuno
+        B[Installed different ways  <br/>WSL, Homebrew, Kasm, <br/>Pulled Github repo to Linux]:::daydos
 end 
     subgraph Day_2[Day 4-7 OS setup]
-        B[Installed different ways  <br/>WSL, Homebrew, Kasm, <br/>Pulled Github repo to Linux]:::daydos
 end
 ```
