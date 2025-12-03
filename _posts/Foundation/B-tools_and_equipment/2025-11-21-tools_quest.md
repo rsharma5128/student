@@ -15,7 +15,7 @@ The Linux kernel offers the best distributions for developers through it's open-
 `This visual will help remind me of Tools and their relationship to my Development Journey.`
 
 ```mermaid
-flowchart TD
+flowchart LR
     %% GitHub Sources
     subgraph GitHub_Pages[GitHub: Open-Coding-Society/pages]
         A[Repo: pages]:::repo
