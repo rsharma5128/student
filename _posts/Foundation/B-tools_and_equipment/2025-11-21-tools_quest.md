@@ -57,7 +57,7 @@ flowchart LR
 `This diagram will show what we did over the past few weeks.`
 
 ```mermaid
-flowchart TD
+flowchart LR
     subgraph Day_1[Day 1-7 Computer Setup]
         A[Days 1-3<br/><br/>Created Github and Slack account<br/>Joined Open Coding Society Slack<br/>Discussed PII<br/>Cloned OpenCS repo<br/>Set up Github Pages<br/>Used vscode.dev web client to edit repo files<br/>Taught how to do basic things like modify text and what files correspond to webpage]:::dayuno
         B[Days 4-7<br/><br/>Installed different ways of accessing Linux<br/>WSL, Homebrew, Kasm, <br/>Pulled Github repo to Linux<br/>Edited repo in VSCode app<br/>Figured out how to access localhost using VSCode app and make command]:::daydos
