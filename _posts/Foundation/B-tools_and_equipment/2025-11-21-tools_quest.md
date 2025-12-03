@@ -62,7 +62,7 @@ flowchart TD
         A[Created Github and Slack account<br/>Joined Open Coding Society Slack<br/>Discussed PII<br/>Cloned OpenCS repo<br/>Set up Github Pages]:::dayuno
 end 
     subgraph Day_2[Day 4-7 OS setup]
-        B[Installed different ways of accessing Linux <br/>WSL, Homebrew, Kasm, laptops<br/>Pulled Github repo to Linux]:::daydos
+        B[Installed different ways  <br/>WSL, Homebrew, Kasm, <br/>Pulled Github repo to Linux]:::daydos
 end
     subgraph 
 ```
