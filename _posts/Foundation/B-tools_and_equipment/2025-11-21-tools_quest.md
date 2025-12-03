@@ -59,9 +59,7 @@ flowchart LR
 ```mermaid
 flowchart TD
     subgraph Day_1[Day 1-7 Computer Setup]
-        A[1-3<br/><br/>Created Github and Slack account<br/>Joined Open Coding Society Slack<br/>Discussed PII<br/>Cloned OpenCS repo<br/>Set up Github Pages]:::dayuno
-        B[Installed different ways of accessing Linux<br/>WSL, Homebrew, Kasm, <br/>Pulled Github repo to Linux]:::daydos
+        A[Days 1-3<br/><br/>Created Github and Slack account<br/>Joined Open Coding Society Slack<br/>Discussed PII<br/>Cloned OpenCS repo<br/>Set up Github Pages]:::dayuno
+        B[Days 4-7<br/><br/>Installed different ways of accessing Linux<br/>WSL, Homebrew, Kasm, <br/>Pulled Github repo to Linux]:::daydos
 end 
-    subgraph Day_2[Day 4-7 OS setup]
-end
 ```
