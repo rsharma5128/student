@@ -265,10 +265,45 @@ permalink: /snake/
                 addFood();
                 activeDot(food.x, food.y);
             }
-            // Repaint canvas
-            ctx.beginPath();
-            ctx.fillStyle = "green";
-            ctx.fillRect(0, 0, canvas.width, canvas.height);
+            const LIGHT_GREEN = '#A2D149'; // A lighter green shade
+const DARK_GREEN = '#AAD751';  // A darker green shade
+
+
+// Define the size of each tile (square) in the checkerboard
+// This should typically be the same size as your snake segments/grid cells
+const TILE_SIZE = 10;
+
+
+// Calculate the number of columns and rows based on the canvas size and tile size
+const cols = canvas.width / TILE_SIZE;
+const rows = canvas.height / TILE_SIZE;
+
+
+// Clear the entire canvas first (optional, but good practice)
+ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+
+// Loop through the grid rows and columns to draw each tile
+for (let i = 0; i < rows; i++) {
+   for (let j = 0; j < cols; j++) {
+       // Determine which color to use based on the tile's position (i, j)
+       // (i + j) % 2 alternates between 0 and 1
+       if ((i + j) % 2 === 0) {
+           ctx.fillStyle = LIGHT_GREEN; // Use the first color for even sums
+       } else {
+           ctx.fillStyle = DARK_GREEN;  // Use the second color for odd sums
+       }
+
+
+       // Calculate the position (x, y) and size (width, height) for the current tile
+       const x = j * TILE_SIZE;
+       const y = i * TILE_SIZE;
+      
+       // Draw the filled rectangle for the tile
+       ctx.fillRect(x, y, TILE_SIZE, TILE_SIZE);
+   }
+}
+
             // Paint snake
             for(let i = 0; i < snake.length; i++){
                 activeDot(snake[i].x, snake[i].y);
