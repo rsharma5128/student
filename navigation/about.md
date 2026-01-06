@@ -122,90 +122,42 @@ Here is where life has taken me!
 
 🥍 Currently in Lacrosse pre-season
 
-
-
-<div id="grid_container"></div>
-
-<script>
-var outputElement = document.getElementById("grid_container");
-
-// ⬇️ Copy Start: start on outputElement.innerHTML line 
-outputElement.innerHTML = '';
-... All ui runner code from Step 4 here
-outputElement.appendChild(container);
-// ⬆️ Copy End: end on outputElement.appendChild line
-
-
-// Setup: be sure to include end script tag
-</script>
-
-<script>
-// Clear the output
-outputElement.innerHTML = '';
-
-// Data array
-const living_in_the_world = [
-  {flag: "https://upload.wikimedia.org/wikipedia/commons/0/01/Flag_of_California.svg", greeting: "Hey", description: "California - forever"},
-  {flag: "https://upload.wikimedia.org/wikipedia/commons/b/b9/Flag_of_Oregon.svg", greeting: "Hi", description: "Oregon - 9 years"},
-  {flag: "https://upload.wikimedia.org/wikipedia/commons/b/be/Flag_of_England.svg", greeting: "Alright mate", description: "England - 2 years"},
-  {flag: "https://upload.wikimedia.org/wikipedia/commons/e/ef/Flag_of_Hawaii.svg", greeting: "Aloha", description: "Hawaii - 2 years"}
-];
-
-// Create a div container with id
-const container = document.createElement('div');
-container.id = 'grid_container';
-
-// Style the container 
-container.style.border = '2px solid';
-container.style.padding = '10px';
-
-// Grid specific styles
-container.style.display = 'grid';
-container.style.gridTemplateColumns = 'repeat(auto-fill, minmax(150px, 1fr))';
-container.style.gap = '10px';
-
-// Loop through data and create grid items
-for (const location of living_in_the_world) {
-  // Create grid item
-  const gridItem = document.createElement('div');
-  gridItem.style.textAlign = 'center';
-  
-  // Create a flag image
-  const img = document.createElement('img');
-  img.src = location.flag;
-  img.alt = location.description + ' Flag';
-  img.style.width = '100%';
-  img.style.height = '100px';
-  img.style.objectFit = 'contain';
-  
-  // Create a description
-  const description = document.createElement('p');
-  description.textContent = location.description;
-  description.style.margin = '5px 0';
-  description.style.fontWeight = 'bold';
-  
-  // Create a greeting
-  const greeting = document.createElement('p');
-  greeting.textContent = location.greeting;
-  greeting.style.margin = '5px 0';
-  greeting.style.fontStyle = 'italic';
-  greeting.style.opacity = '0.7';
-  
-  // Add all elements to grid item
-  gridItem.appendChild(img);
-  gridItem.appendChild(description);
-  gridItem.appendChild(greeting);
-  
-  // Add grid item to container
-  container.appendChild(gridItem);
-}
-
-
-
-
 💻 Helped my friend Matt with game developing in Roblox Studio
 
+## Photo Gallery of my interests
 
+<div class="image-gallery">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/4/48/Roblox_Logo_2021.png" alt="Photo 1">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/f/f9/Initial_D_Logo.png" alt="Photo 2">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/e/e1/Logo_of_YouTube_%282015-2017%29.svg" alt="Photo 3">
+</div>
+
+**1 - Roblox**
+
+Roblox is a game platform made all the way back in 2005. I enjoy playing games such as Jailbreak and Arcane Odyssey on this platform with my friend Matt.
+
+**2 - Initial D**
+
+Initial D was a TV show produced from 1998 to 2010. I enjoy watching it very dearly as I love cars and the storyline revolves around a young 18 year old racing in mountain passes late at night.
+
+**3 - YouTube**
+
+YouTube is a video platform made by Google. I enjoy watching YouTubers on this platform such as Garbage Time, Dankpods, Salem Techsperts, and Psivewri.
+
+<style>
+.image-gallery {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  gap: 10px;
+}
+
+.image-gallery img {
+  max-height: 150px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+</style>
 ### Background
 
 My family is my main inspiration, and they are the reason I am still here today and in this CS class!
