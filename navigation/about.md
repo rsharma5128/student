@@ -122,35 +122,89 @@ Here is where life has taken me!
 
 🥍 Currently in Lacrosse pre-season
 
-https://upload.wikimedia.org/wikipedia/commons/e/ee/Roblox_Studio_icon_2025.svg
 
-💻 Helped my friend Matt with game developing in Roblox Studio
 
-<div id="output"></div>
+<div id="grid_container"></div>
 
 <script>
+var outputElement = document.getElementById("grid_container");
 
-    // Get or create the output element
-const outputElement = document.getElementById('output') || document.body;
+// ⬇️ Copy Start: start on outputElement.innerHTML line 
+outputElement.innerHTML = '';
+... All ui runner code from Step 4 here
+outputElement.appendChild(container);
+// ⬆️ Copy End: end on outputElement.appendChild line
 
+
+// Setup: be sure to include end script tag
+</script>
+
+<script>
 // Clear the output
 outputElement.innerHTML = '';
+
+// Data array
+const living_in_the_world = [
+  {flag: "https://upload.wikimedia.org/wikipedia/commons/0/01/Flag_of_California.svg", greeting: "Hey", description: "California - forever"},
+  {flag: "https://upload.wikimedia.org/wikipedia/commons/b/b9/Flag_of_Oregon.svg", greeting: "Hi", description: "Oregon - 9 years"},
+  {flag: "https://upload.wikimedia.org/wikipedia/commons/b/be/Flag_of_England.svg", greeting: "Alright mate", description: "England - 2 years"},
+  {flag: "https://upload.wikimedia.org/wikipedia/commons/e/ef/Flag_of_Hawaii.svg", greeting: "Aloha", description: "Hawaii - 2 years"}
+];
 
 // Create a div container with id
 const container = document.createElement('div');
 container.id = 'grid_container';
 
 // Style the container 
-container.style.border = '2px dashed';
+container.style.border = '2px solid';
 container.style.padding = '10px';
 
-// Add sample text
-container.textContent = 'Container for grid created!.';
+// Grid specific styles
+container.style.display = 'grid';
+container.style.gridTemplateColumns = 'repeat(auto-fill, minmax(150px, 1fr))';
+container.style.gap = '10px';
 
-// Add containter to output 
-outputElement.appendChild(container);
+// Loop through data and create grid items
+for (const location of living_in_the_world) {
+  // Create grid item
+  const gridItem = document.createElement('div');
+  gridItem.style.textAlign = 'center';
+  
+  // Create a flag image
+  const img = document.createElement('img');
+  img.src = location.flag;
+  img.alt = location.description + ' Flag';
+  img.style.width = '100%';
+  img.style.height = '100px';
+  img.style.objectFit = 'contain';
+  
+  // Create a description
+  const description = document.createElement('p');
+  description.textContent = location.description;
+  description.style.margin = '5px 0';
+  description.style.fontWeight = 'bold';
+  
+  // Create a greeting
+  const greeting = document.createElement('p');
+  greeting.textContent = location.greeting;
+  greeting.style.margin = '5px 0';
+  greeting.style.fontStyle = 'italic';
+  greeting.style.opacity = '0.7';
+  
+  // Add all elements to grid item
+  gridItem.appendChild(img);
+  gridItem.appendChild(description);
+  gridItem.appendChild(greeting);
+  
+  // Add grid item to container
+  container.appendChild(gridItem);
+}
 
-</script>
+
+
+
+💻 Helped my friend Matt with game developing in Roblox Studio
+
 
 ### Background
 
