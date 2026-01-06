@@ -61,8 +61,8 @@ Flags are made using Wikipedia images
     var http_source = "https://upload.wikimedia.org/wikipedia/commons/";
 
     var living_in_the_world = [
-        {"flag": "0/01/Flag_of_California.svg", "greeting": "Hello!", "description": "California - all my life!!!"},
-  
+        {flag: "0/01/Flag_of_California.svg", greeting: "Hello!", description: "California - all my life!!!"}, {flag: "8/88/Flag_of_India_%282-1%29.svg", greeting: "Namaste Beta", description: "India - where my parents are from"}
+
     ];
 
     // 3a. Consider how to update style count for size of container
@@ -121,6 +121,8 @@ Here is where life has taken me!
 🏃 Started Cross Country this year
 
 🥍 Currently in Lacrosse pre-season
+
+https://upload.wikimedia.org/wikipedia/commons/e/ee/Roblox_Studio_icon_2025.svg
 
 💻 Helped my friend Matt with game developing in Roblox Studio
 
