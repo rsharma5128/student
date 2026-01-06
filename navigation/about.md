@@ -126,6 +126,31 @@ https://upload.wikimedia.org/wikipedia/commons/e/ee/Roblox_Studio_icon_2025.svg
 
 💻 Helped my friend Matt with game developing in Roblox Studio
 
+<div id="output"></div>
+
+<script>
+
+    // Get or create the output element
+const outputElement = document.getElementById('output') || document.body;
+
+// Clear the output
+outputElement.innerHTML = '';
+
+// Create a div container with id
+const container = document.createElement('div');
+container.id = 'grid_container';
+
+// Style the container 
+container.style.border = '2px dashed';
+container.style.padding = '10px';
+
+// Add sample text
+container.textContent = 'Container for grid created!.';
+
+// Add containter to output 
+outputElement.appendChild(container);
+
+</script>
 
 ### Background
 
