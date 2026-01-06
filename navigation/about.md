@@ -126,23 +126,63 @@ Here is where life has taken me!
 
 ## Photo Gallery of my interests
 
-<div class="image-gallery">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/4/48/Roblox_Logo_2021.png" alt="Photo 1">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/f/f9/Initial_D_Logo.png" alt="Photo 2">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/e/e1/Logo_of_YouTube_%282015-2017%29.svg" alt="Photo 3">
-</div>
+// Setup: lines from here to "Copy"
+<div id="grid_container"></div>
 
-**1 - Roblox**
+<script>
+var outputElement = document.getElementById("grid_container");
 
-Roblox is a game platform made all the way back in 2005. I enjoy playing games such as Jailbreak and Arcane Odyssey on this platform with my friend Matt.
+// ⬇️ Copy Start: start on outputElement.innerHTML line 
+// Clear the output
+outputElement.innerHTML = '';
 
-**2 - Initial D**
+// Define the data array of flagobjects
+const living_in_the_world = [
+  {
+    flag: "https://upload.wikimedia.org/wikipedia/commons/0/01/Flag_of_California.svg",
+    greeting: "Hey",
+    description: "California - forever"
+  },
+  {
+    flag: "https://upload.wikimedia.org/wikipedia/commons/b/b9/Flag_of_Oregon.svg",
+    greeting: "Hi",
+    description: "Oregon - 9 years"
+  },
+  {
+    flag: "https://upload.wikimedia.org/wikipedia/commons/b/be/Flag_of_England.svg",
+    greeting: "Alright mate",
+    description: "England - 2 years"
+  },
+  {
+    flag: "https://upload.wikimedia.org/wikipedia/commons/e/ef/Flag_of_Hawaii.svg",
+    greeting: "Aloha",
+    description: "Hawaii - 2 years"
+  }
+];
 
-Initial D was a TV show produced from 1998 to 2010. I enjoy watching it very dearly as I love cars and the storyline revolves around a young 18 year old racing in mountain passes late at night.
+// Create a pre container with id
+const container = document.createElement('pre');
+container.id = 'grid_container';
 
-**3 - YouTube**
+/// Style the container for JSON display 
+container.style.border = '2px dashed';
+container.style.padding = '10px';
+container.style.borderRadius = '8px';
+container.style.overflow = 'auto';
 
-YouTube is a video platform made by Google. I enjoy watching YouTubers on this platform such as Garbage Time, Dankpods, Salem Techsperts, and Psivewri.
+// Add the Flag data as JSON text 
+container.textContent = JSON.stringify(living_in_the_world, null, 2);
+
+// Add containter to output 
+outputElement.appendChild(container);
+
+... All ui runner code from Step 4 here
+outputElement.appendChild(container);
+// ⬆️ Copy End: end on outputElement.appendChild line
+
+
+// Setup: be sure to include end script tag
+</script>
 
 <style>
 .image-gallery {
