@@ -124,80 +124,60 @@ Here is where life has taken me!
 
 💻 Helped my friend Matt with game developing in Roblox Studio
 
-## Photo Gallery of my interests
+## Photo Gallery of my Interests
 
-// Setup: lines from here to "Copy"
-<div id="grid_container"></div>
+div class="grid-container" id="roblox_grid"></div>
+
 
 <script>
-var outputElement = document.getElementById("grid_container");
-
-// ⬇️ Copy Start: start on outputElement.innerHTML line 
-// Clear the output
-outputElement.innerHTML = '';
-
-// Define the data array of flagobjects
-const living_in_the_world = [
-  {
-    flag: "https://upload.wikimedia.org/wikipedia/commons/0/01/Flag_of_California.svg",
-    greeting: "Hey",
-    description: "California - forever"
-  },
-  {
-    flag: "https://upload.wikimedia.org/wikipedia/commons/b/b9/Flag_of_Oregon.svg",
-    greeting: "Hi",
-    description: "Oregon - 9 years"
-  },
-  {
-    flag: "https://upload.wikimedia.org/wikipedia/commons/b/be/Flag_of_England.svg",
-    greeting: "Alright mate",
-    description: "England - 2 years"
-  },
-  {
-    flag: "https://upload.wikimedia.org/wikipedia/commons/e/ef/Flag_of_Hawaii.svg",
-    greeting: "Aloha",
-    description: "Hawaii - 2 years"
-  }
-];
-
-// Create a pre container with id
-const container = document.createElement('pre');
-container.id = 'grid_container';
-
-/// Style the container for JSON display 
-container.style.border = '2px dashed';
-container.style.padding = '10px';
-container.style.borderRadius = '8px';
-container.style.overflow = 'auto';
-
-// Add the Flag data as JSON text 
-container.textContent = JSON.stringify(living_in_the_world, null, 2);
-
-// Add containter to output 
-outputElement.appendChild(container);
-
-... All ui runner code from Step 4 here
-outputElement.appendChild(container);
-// ⬆️ Copy End: end on outputElement.appendChild line
+   var robloxContainer = document.getElementById("roblox_grid");
+  
+   var projects = [
+       {
+           image: "{{site.baseurl}}/images/about/robloxs.jpeg",
+           title: "dumb airport game",
+           description: "My first project mainly made by myself made to be a chaos sandbox to parody normal airport games."
+       },
+       {
+           image: "{{site.baseurl}}/images/about/miami.webp",
+           title: "Tacitorn Port Game",
+           description: "An attempted project to make a GTA Clone. Well-developed with lots of code but nowhere close to finished currently not being maintained. Major improvement to dumb airport game."
+       },
+       {
+           image: "{{site.baseurl}}/images/about/zombie.webp",
+           title: "Left With Nothing",
+           description: "My current project. It's a zombie survival game where your put into an abandoned city forced to scavenge for weapons to survive the  and their variants, hostile NPCs, and other players. My most well-developed game compared to my previous ones. "
+       }
+   ];
 
 
-// Setup: be sure to include end script tag
+   for (const project of projects) {
+       var gridItem = document.createElement("div");
+       gridItem.className = "grid-item";
+
+
+       var img = document.createElement("img");
+       img.src = project.image;
+       img.alt = project.title;
+
+
+       var title = document.createElement("p");
+       title.textContent = project.title;
+
+
+       var description = document.createElement("p");
+       description.textContent = project.description;
+
+
+       gridItem.appendChild(img);
+       gridItem.appendChild(title);
+       gridItem.appendChild(description);
+       robloxContainer.appendChild(gridItem);
+   }
 </script>
 
-<style>
-.image-gallery {
-  display: flex;
-  flex-wrap: nowrap;
-  overflow-x: auto;
-  gap: 10px;
-}
 
-.image-gallery img {
-  max-height: 150px;
-  object-fit: cover;
-  border-radius: 5px;
-}
-</style>
+
 ### Background
 
 My family is my main inspiration, and they are the reason I am still here today and in this CS class!
@@ -213,7 +193,7 @@ My family is my main inspiration, and they are the reason I am still here today 
 Gallery of Pics...
 </comment>
 <div class="image-gallery">
-  <img src="{{site.baseurl}}/images/about/mort1.jpg" alt="Image 1">
+  <img src="" alt="Image 1">
   <img src="{{site.baseurl}}/images/about/mort2.jpg" alt="Image 2">
   <img src="{{site.baseurl}}/images/about/mort4.jpg" alt="Image 3">
   <img src="{{site.baseurl}}/images/about/mort5.jpg" alt="Image 3">
