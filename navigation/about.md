@@ -130,14 +130,13 @@ Here is where life has taken me!
 
 
 <script>
-   var interestcontainer = document.getElementById("roblox_grid");
+   var robloxContainer = document.getElementById("roblox_grid");
   
    var projects = [
        {
-           image: "
-           https://upload.wikimedia.org/wikipedia/commons/e/e1/Logo_of_YouTube_%282015-2017%29.svg",
+           image: "https://upload.wikimedia.org/wikipedia/commons/e/e1/Logo_of_YouTube_%282015-2017%29.svg",
            title: "YouTube",
-           description: "I enjoy watching videos about hardware and cars on YouTube, as those are 2 fields which interest me. I enjoy watching YouTubers such as Garbage Time, Psivewri, and Salem Techsperts"
+           description: "I enjoy watching videos about hardware and cars on YouTube, as those are 2 fields which interest me. I enjoy watching YouTubers such as Garbage Time, Psivewri, and Salem Techsperts."
        },
        {
            image: "https://upload.wikimedia.org/wikipedia/commons/4/48/Roblox_Logo_2021.png",
@@ -152,7 +151,7 @@ Here is where life has taken me!
        {
         image: "https://upload.wikimedia.org/wikipedia/commons/8/8e/IFixit_logo.svg",
         title: "Computer Repair",
-        description "In my free time, I occasionally enjoy repairing computers. It is stressful at times, but I find pleasure in doing things like reapplying thermal paste and fixing broken computers to a state of working again. I chose the IFixit logo to represent this as the guides on there have helped me a lot with some of the repairs that I do."
+        description: "In my free time, I occasionally enjoy repairing computers. It is stressful at times, but I find pleasure in doing things like reapplying thermal paste and fixing broken computers to a state of working again. I chose the IFixit logo to represent this as the guides on there have helped me a lot with some of the repairs that I do."
        }
    ];
 
@@ -178,7 +177,7 @@ Here is where life has taken me!
        gridItem.appendChild(img);
        gridItem.appendChild(title);
        gridItem.appendChild(description);
-       interestcontainer.appendChild(gridItem);
+       robloxContainer.appendChild(gridItem);
    }
 </script>
 
