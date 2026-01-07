@@ -126,7 +126,7 @@ Here is where life has taken me!
 
 ## Photo Gallery of my Interests
 
-div class="grid-container" id="roblox_grid"></div>
+<div class="grid-container" id="roblox_grid"></div>
 
 
 <script>
