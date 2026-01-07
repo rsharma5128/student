@@ -130,23 +130,29 @@ Here is where life has taken me!
 
 
 <script>
-   var robloxContainer = document.getElementById("roblox_grid");
+   var interestcontainer = document.getElementById("roblox_grid");
   
    var projects = [
        {
-           image: "{{site.baseurl}}/images/about/robloxs.jpeg",
-           title: "dumb airport game",
-           description: "My first project mainly made by myself made to be a chaos sandbox to parody normal airport games."
+           image: "
+           https://upload.wikimedia.org/wikipedia/commons/e/e1/Logo_of_YouTube_%282015-2017%29.svg",
+           title: "YouTube",
+           description: "I enjoy watching videos about hardware and cars on YouTube, as those are 2 fields which interest me. I enjoy watching YouTubers such as Garbage Time, Psivewri, and Salem Techsperts"
        },
        {
-           image: "{{site.baseurl}}/images/about/miami.webp",
-           title: "Tacitorn Port Game",
-           description: "An attempted project to make a GTA Clone. Well-developed with lots of code but nowhere close to finished currently not being maintained. Major improvement to dumb airport game."
+           image: "https://upload.wikimedia.org/wikipedia/commons/4/48/Roblox_Logo_2021.png",
+           title: "Roblox",
+           description: "I enjoy playing games on Roblox in my free time, and I play games such as Jailbreak, Infamy and Arcane Odyssey with my friend Kyle and games like Riotfall by myself."
        },
        {
-           image: "{{site.baseurl}}/images/about/zombie.webp",
-           title: "Left With Nothing",
-           description: "My current project. It's a zombie survival game where your put into an abandoned city forced to scavenge for weapons to survive the  and their variants, hostile NPCs, and other players. My most well-developed game compared to my previous ones. "
+           image: "https://upload.wikimedia.org/wikipedia/commons/f/f9/Initial_D_Logo.png",
+           title: "Initial D",
+           description: "Initial D was an anime which aired from 1998 to 2010. It is an anime about an 18 year old teenager delivering tofu in mountain passes late at night and how he gets exposed to the world of illegal street racing. I enjoy watching this anime because of the techniques used which also relate to properties of physics."
+       },
+       {
+        image: "https://upload.wikimedia.org/wikipedia/commons/8/8e/IFixit_logo.svg",
+        title: "Computer Repair",
+        description "In my free time, I occasionally enjoy repairing computers. It is stressful at times, but I find pleasure in doing things like reapplying thermal paste and fixing broken computers to a state of working again. I chose the IFixit logo to represent this as the guides on there have helped me a lot with some of the repairs that I do."
        }
    ];
 
@@ -172,7 +178,7 @@ Here is where life has taken me!
        gridItem.appendChild(img);
        gridItem.appendChild(title);
        gridItem.appendChild(description);
-       robloxContainer.appendChild(gridItem);
+       interestcontainer.appendChild(gridItem);
    }
 </script>
 
