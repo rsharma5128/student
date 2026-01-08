@@ -102,7 +102,7 @@ Here is where life has taken me!
 
 **School**
 
-- 🏫 Deer Canyon Elementary School(2015-2016)
+- 🏫 Deer Canyon Elemewdentary School(2015-2016)
 
 - 🏫 Stone Ranch Elementary School(2016-2022)
 
