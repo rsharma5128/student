@@ -134,7 +134,7 @@ Here is where life has taken me!
   
    var projects = [
        {
-           image: "https://upload.wikimedia.org/wikipedia/commons/e/e1/Logo_of_YouTube_%282015-2017%29.svg",
+           image: "https://upload.wikimedia.org/wikipedia/commons/5/52/YouTube_social_white_circle_%282017%29.svg",
            title: "YouTube",
            description: "I enjoy watching videos about hardware and cars on YouTube, as those are 2 fields which interest me. I enjoy watching YouTubers such as Garbage Time, Psivewri, and Salem Techsperts."
        },
